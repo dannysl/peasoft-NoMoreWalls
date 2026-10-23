@@ -12,17 +12,11 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
-  port: 35544
-  server: funagfrdfs.alixxplay.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: firefox
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
+- client-fingerprint: chrome
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
   network: ws
   port: 443
-  server: 43.170.8.95
+  server: 104.16.10.135
   servername: jp3.yohototo.top
   tls: true
   type: vless
@@ -31,7 +25,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #5'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
   port: 443
   server: 137.220.221.179
   tls: false
@@ -114,13 +108,42 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|1.9MB/s
-  password: None
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|5.0MB/s
+  network: ws
+  port: 443
+  server: 43.165.180.254
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_2|3.8MB/s
+  network: ws
+  port: 443
+  server: 172.104.80.248
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   name: '🇯🇵 日本 | JPN #1'
   network: ws
