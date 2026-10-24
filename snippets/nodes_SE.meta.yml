@@ -6,11 +6,10 @@ proxies:
   sni: sweden.luxes.network
   tls: false
   type: hysteria2
-- name: 🐙32@oneclickvpnkeys
+- name: 🐙93@oneclickvpnkeys
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
-  server: 50.7.38.243
-  sni: promo.betust.net
+  server: promo.betust.net
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇸🇪
@@ -67,16 +66,10 @@ proxies:
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   ws-opts:
     path: /merky-connect/de6/
-- name: 🇸🇪SE_1|1.8MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|2.0MB/s
+- name: 🇸🇪SE_1|1.5MB/s
   password: None
   port: 443
-  server: 146.70.242.130
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
