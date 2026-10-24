@@ -29,38 +29,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  auth: i4XPm2Ip7f9IAqbB
-  down: 200
-  name: 🇰🇷 韩国 | KOR
-  password: i4XPm2Ip7f9IAqbB
-  port: 16001
-  server: 3.35.177.133
-  skip-cert-verify: true
-  sni: kor-ls-8.nebulacloud.win
-  type: hysteria2
-  udp: true
-  up: 100
-- client-fingerprint: chrome
-  name: '🇰🇷 韩国 | KOR #2'
-  network: ws
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  name: '🇰🇷 韩国 | KOR #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 3.38.190.222
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: '🇰🇷 韩国 | KOR #1'
-  password: i4XPm2Ip7f9IAqbB
-  port: 16001
-  server: 3.35.177.133
+  server: 54.180.151.244
   skip-cert-verify: true
-  sni: kor-ls-8.nebulacloud.win
+  sni: www.bing.com
   tls: false
   type: hysteria2
