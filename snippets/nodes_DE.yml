@@ -1,9 +1,10 @@
 proxies:
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: it1.dedushka.top
-  sni: it1.dedushka.top
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #1'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
   type: trojan
 - name: '🇩🇪 德国 | DEU #3'
   password: 09a4b2991fa74137
