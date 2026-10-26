@@ -43,45 +43,17 @@ proxies:
     headers:
       Host: 193.188.21.253
     path: /vless
-- name: SE_speednode_0049
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇸🇪SE_2|1.0MB/s
+- name: 🇸🇪SE_1|1.3MB/s
   password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  name: '🇸🇪 瑞典 | SWE #1'
-  network: ws
-  port: 2096
-  server: 191.44.114.179
-  servername: st33614.rumedia-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  ws-opts:
-    headers:
-      Host: st33614.rumedia-cdn.com
-    path: /cdn/v3/live
-- name: 🇸🇪 瑞典 | SWE 2
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60005
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: SE_speednode_0048
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇸🇪 瑞典 | SWE
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 60005
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  type: anytls
   udp: true
