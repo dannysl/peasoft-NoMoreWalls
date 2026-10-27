@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  type: ss
 - name: 🇳🇱[www.v2nodes.com] trojan-NL-...
   password: happybirthdaydaniel
   port: 25267
@@ -6,10 +12,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me/FuckTheWall
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '🇩🇪 德国 | DEU #5'
-  password: uvKNudV-N8AUCrykPiyznA
-  port: 56137
-  server: 37.153.158.167
-  type: ss
-  udp: true
