@@ -46,16 +46,17 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸US_17|1.6MB/s
+  name: '🇺🇸 美国 | USA #10'
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.54
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: learn.nextjobopportunityandclaimyouridealrole.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_18|1.8MB/s
+  name: 🇺🇸US_7|1.1MB/s
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.114.106
@@ -63,37 +64,79 @@ proxies:
   sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 91.206.92.238
-  type: ss
-  udp: true
-- name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
-  port: 8443
-  server: www.visa.com.sg
-  skip-cert-verify: true
-  sni: au5.yang-1989.xyz
+- client-fingerprint: chrome
+  name: 🇺🇸US_8|1.0MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.132
+  skip-cert-verify: false
+  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: au5.yang-1989.xyz
-    path: /iw8i
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #4'
-  password: BetterProxy2026!
-  port: 8443
-  server: us.betterandbetter.cloud
-  type: ss
-  udp: true
-- name: '🇺🇸 美国 | USA #2'
-  password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
-  port: 8443
-  server: www.visa.com.sg
-  skip-cert-verify: true
-  sni: au5.yang-1989.xyz
+- client-fingerprint: chrome
+  name: 🇺🇸US_9|1.0MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.166
+  skip-cert-verify: false
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
+  udp: true
+- name: '🇦🇺 澳大利亚 | AUS #1'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  skip-cert-verify: true
+  sni: connectwithemployerstohireyouridealteam.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.23
+  skip-cert-verify: true
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.7
+  skip-cert-verify: true
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #8'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.42
+  skip-cert-verify: true
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #11'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.114
+  skip-cert-verify: true
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #12'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.81
+  skip-cert-verify: true
+  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #13'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.176
+  skip-cert-verify: true
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+  udp: true

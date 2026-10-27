@@ -96,13 +96,13 @@ proxies:
   server: 82.110.60.9
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
+  name: 🏳[www.v2nodes.com] ss-
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.141.125
   type: ss
 - cipher: aes-256-gcm
-  name: '🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 51.79.85.185
@@ -114,7 +114,7 @@ proxies:
   server: 51.222.200.165
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
+  name: '🏳[www.v2nodes.com] ss- #1'
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.222.136.236
@@ -156,18 +156,17 @@ proxies:
   server: 132.243.175.144
   type: ss
 - cipher: aes-256-gcm
+  name: 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  password: xBStBEVqvGwHPocc
+  port: 8388
+  server: 64.176.2.21
+  type: ss
+- cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇬🇧 英国 | GBR #2'
-  password: uvKNudV-N8AUCrykPiyznA
-  port: 56137
-  server: 177.202.111.18
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -181,82 +180,73 @@ proxies:
   server: 158.173.24.73
   type: ss
 - cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3'
+  name: '🇺🇸 美国 | USA #7'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #5'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  name: '🇺🇸 美国 | USA #15'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
+  name: '🏳[www.v2nodes.com] ss- #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
+  name: '🏳[www.v2nodes.com] ss- #5'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6'
+  name: '🇺🇸 美国 | USA #14'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1597...
+  name: '🏳[www.v2nodes.com] ss- #7'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.164.175.81
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1559...
-  password: qMvJmCbMduKUoeHq
-  port: 8388
-  server: 66.245.207.70
   type: ss
 - cipher: aes-256-gcm
   name: 🇮🇹[www.v2nodes.com] ss-IT-1549...
@@ -265,12 +255,11 @@ proxies:
   server: 57.131.48.45
   type: ss
 - cipher: aes-256-gcm
-  name: '🇯🇵 日本 | JPN #1'
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1598...
   password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
@@ -278,10 +267,16 @@ proxies:
   server: 191.223.221.53
   type: ss
 - cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
+  name: '🏳[www.v2nodes.com] ss- #8'
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[www.v2nodes.com] ss-NL-1604...
+  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
+  port: 43385
+  server: sql.popmintxo.cc
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇴[www.v2nodes.com] ss-NO-1220...
@@ -301,6 +296,18 @@ proxies:
   port: 443
   server: bogging-eyeteeth-fly.freesocks.work
   type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🏳[www.v2nodes.com] ss- #9'
+  password: tfAcRikawhNoZAhu
+  port: 8388
+  server: 139.84.247.164
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇿🇦[www.v2nodes.com] ss-ZA-1336...
   password: aduB9HGxQHjA2SBMRjkHX6
@@ -308,7 +315,7 @@ proxies:
   server: 102.37.156.224
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '🏳[www.v2nodes.com] ss- #1'
+  name: '🏳[www.v2nodes.com] ss- #10'
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
@@ -452,11 +459,10 @@ proxies:
   skip-cert-verify: true
   sni: www.itunes.com
   type: trojan
-- name: '🇭🇰[www.v2nodes.com] trojan-HK-... #1'
+- name: 🏳[www.v2nodes.com] trojan-
   password: XuMweB2PWs
   port: 45464
   server: 2.27.109.179
-  sni: 2.27.109.179.sslip.io
   type: trojan
 - name: 🇯🇵[www.v2nodes.com] trojan-JP-...
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
@@ -469,25 +475,20 @@ proxies:
   port: 443
   server: 47.250.84.25
   type: trojan
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #1'
+- name: '🏳[www.v2nodes.com] trojan- #1'
   password: humanity
   port: 443
-  server: 188.114.97.6
+  server: 8.6.112.206
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  port: 443
-  server: 43.156.36.253
-  type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
   sni: 139.180.146.200
   type: trojan
-- name: 🇹🇼[www.v2nodes.com] trojan-TW-...
+- name: '🏳[www.v2nodes.com] trojan- #2'
   password: 29086912-33e4-4e06-ba2b-60f1a195864f
   port: 24999
   server: tjtw.m2k699.com
@@ -780,16 +781,17 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸US_17|1.6MB/s
+  name: '🇺🇸 美国 | USA #10'
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.54
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: learn.nextjobopportunityandclaimyouridealrole.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_18|1.8MB/s
+  name: 🇺🇸US_7|1.1MB/s
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.114.106
@@ -797,40 +799,59 @@ proxies:
   sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇬🇧 英国 | GBR #1'
-  password: uvKNudV-N8AUCrykPiyznA
-  port: 56137
-  server: 87.236.166.166
-  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇸US_8|1.0MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.132
+  skip-cert-verify: false
+  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_9|1.0MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.166
+  skip-cert-verify: false
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- name: '🇦🇺 澳大利亚 | AUS #1'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  skip-cert-verify: true
+  sni: connectwithemployerstohireyouridealteam.com
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '🇬🇧 英国 | GBR #3'
+  name: '🇩🇪 德国 | DEU #4'
   password: uvKNudV-N8AUCrykPiyznA
   port: 56137
   server: 177.202.111.19
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇬🇧 英国 | GBR #5'
-  password: uvKNudV-N8AUCrykPiyznA
-  port: 56137
-  server: 87.236.166.220
-  type: ss
-  udp: true
-- name: '🇬🇧 英国 | GBR #6'
-  password: 5e4a2c58499345c3
-  port: 20022
-  server: ikuk204.zxom.eu.org
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 7
+  port: 36812
+  server: 91.107.128.44
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #1'
   network: ws
   port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  server: 47.243.65.243
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -840,97 +861,98 @@ proxies:
     headers:
       Host: lcv8v9l7oyamxxfz.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '🇭🇰 香港 | HKG #2'
-  network: ws
-  port: 36703
-  server: 47.244.120.197
+  name: 🇯🇵 日本 | JPN
+  port: 448
+  server: fe43ezo-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    path: /arki
-- alterId: 0
+  uuid: f1661ea9-e145-3e49-a573-b68046dbccd2
+- alterId: 1
   cipher: auto
-  name: '🇭🇰 香港 | HKG #5'
-  network: ws
-  port: 443
-  server: 47.243.153.153
+  name: 🇯🇵 日本 | JPN 2
+  port: 46486
+  server: w8a3ekr-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #6'
-  network: ws
+  uuid: f1661ea9-e145-3e49-a573-b68046dbccd2
+- name: '🇺🇸 美国 | USA #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  server: 216.152.155.23
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /ws-vmess
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #7'
-  network: ws
-  port: 443
-  server: 47.76.57.83
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
-- cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 91.206.92.238
-  type: ss
-  udp: true
-- name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
-  port: 8443
-  server: www.visa.com.sg
-  skip-cert-verify: true
-  sni: au5.yang-1989.xyz
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: au5.yang-1989.xyz
-    path: /iw8i
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #4'
-  password: BetterProxy2026!
-  port: 8443
-  server: us.betterandbetter.cloud
-  type: ss
-  udp: true
-- name: '🇺🇸 美国 | USA #2'
-  password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
-  port: 8443
-  server: www.visa.com.sg
+- name: '🇺🇸 美国 | USA #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.7
   skip-cert-verify: true
-  sni: au5.yang-1989.xyz
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #8'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.42
+  skip-cert-verify: true
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #11'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.114
+  skip-cert-verify: true
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #12'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.81
+  skip-cert-verify: true
+  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #13'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.176
+  skip-cert-verify: true
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #7'
+  network: tcp
+  port: 36812
+  server: 91.107.128.44
+  tls: false
+  type: vmess
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1'
+  network: tcp
+  port: 448
+  server: fe43ezo-g05.jp04-1d-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: f1661ea9-e145-3e49-a573-b68046dbccd2
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #2'
+  network: tcp
+  port: 46486
+  server: w8a3ekr-g05.jp05-h6-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: f1661ea9-e145-3e49-a573-b68046dbccd2
