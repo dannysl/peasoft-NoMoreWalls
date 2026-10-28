@@ -7,13 +7,7 @@ proxies:
   sni: nl1.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 🇪🇪EE_3|1.3MB/s
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_4|2.4MB/s
+- name: 🇪🇪EE_1|1.8MB/s
   password: None
   port: 9443
   server: 95.153.31.66
